@@ -1,0 +1,31 @@
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+
+.section-tittle{
+    font-family: Raleway;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-weight: 900;
+    font-size: 25px;
+
+}
+
+.fa{
+  cursor: pointer;
+}
+
+html,
+body {
+  
+}
+
+section {
+  display: block;
+  height:100%;
+  width:100%;
+  box-sizing:border-box;
+}
+
+
+
+
+

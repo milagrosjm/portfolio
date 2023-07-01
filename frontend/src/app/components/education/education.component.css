@@ -1,0 +1,68 @@
+.education-conteiner{
+    background: #001524;
+    color: rgb(190,190, 190);
+
+    height: 100%;
+    width: 100%;
+    display: block;
+    box-sizing:border-box;
+}
+
+.education-table{
+    padding: 2rem 3rem 3rem 3rem;
+    font-family: Raleway;
+}
+
+.education-item{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    margin: 2rem;
+    background-color: #212529;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+
+.education-degree{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: large;
+
+}
+
+.education-institution{
+    font-weight: 100;
+    font-size: large;
+}
+
+.modal{
+    color: black !important
+}
+
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+.fa-plus{
+    animation: wiggle 2s linear infinite;
+}
